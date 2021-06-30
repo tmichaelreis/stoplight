@@ -15,7 +15,7 @@ const StoplightContainer = () => {
 
   useEffect(() => {
     // Yellow should only show in passing
-    const duration = currentColor === "yellow" ? 500 : 2000;
+    const duration = currentColor === "yellow" ? 1000 : 4000;
 
     const changeInterval = setInterval(() => {
       advanceColor();

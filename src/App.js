@@ -1,8 +1,10 @@
-import StoplightContainer from "../containers/StoplightContainer";
+import StoplightContainer from "./containers/StoplightContainer.js";
+
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <main className="App">
+    <main className={styles.app}>
       <StoplightContainer />
     </main>
   );

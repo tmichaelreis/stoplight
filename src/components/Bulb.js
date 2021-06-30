@@ -1,10 +1,12 @@
+import styles from "./Bulb.module.css";
+
 const Bulb = ({ color, active }) => {
-  let classNames = ["bulb", color];
+  let classNames = [styles.bulb, styles[color]];
   if (active) {
-    classNames.push("active");
+    classNames.push(styles.active);
   }
 
-  return <div className={classNames}>{color}</div>;
+  return <div className={classNames.join(" ")}></div>;
 };
 
 export default Bulb;

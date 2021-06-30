@@ -1,0 +1,6 @@
+.stoplight {
+  display: flex;
+  flex-direction: column;
+  background-color: #d6cb4b;
+  padding: 0.5rem;
+}

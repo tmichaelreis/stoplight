@@ -1,5 +1,8 @@
 .stoplight {
+  margin: 1rem 0.5rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: #d6cb4b;
   padding: 0.5rem;

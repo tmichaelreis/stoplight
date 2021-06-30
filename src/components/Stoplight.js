@@ -2,9 +2,7 @@ import Bulb from "./Bulb.js";
 
 import styles from "./Stoplight.module.css";
 
-const Stoplight = ({ currentColor }) => {
-  const colors = ["green", "yellow", "red"];
-
+const Stoplight = ({ colors, currentColor }) => {
   return (
     <div className={styles.stoplight}>
       {colors.map((color) => {

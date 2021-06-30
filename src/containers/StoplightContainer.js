@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Stoplight from "./components/Stoplight";
+import Stoplight from "../components/Stoplight.js";
 
 const StoplightContainer = () => {
   const [color, setColor] = useState("red");
 
-  <Stoplight color={color} />;
+  return <Stoplight color={color} />;
 };
 
 export default StoplightContainer;
